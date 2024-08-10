@@ -1,0 +1,53 @@
+@media (max-width: 750px) {
+    body {
+        font-size: 12px;
+        overflow: auto;
+    }
+
+    .championdex{
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .cartao-lol {
+        max-width: 300px;
+    }
+
+    .cartao-lol .cartao-imagem {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cartao-lol .cartao-informacoes {
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+
+    .cartao-lol .cartao-informacoes h3 {
+        font-size: 16px;
+    }
+
+    .listagem {
+        max-width: 300px;
+    }
+
+    .listagem ul {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .listagem .champion {
+        width: 140px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+        border-radius: 8px;
+    }
+
+    .listagem .champion span {
+        padding-right: 5px;
+    }
+
+}
